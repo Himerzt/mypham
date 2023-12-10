@@ -1,17 +1,7 @@
 <header class="Header">
     <div class="Header__Contain">
         <div class="Header__Top Header--Wrap">
-            <!-- <div class="Header__Top__Left Header--Wrap">
-                <div>
-                    <span><i class="fa-solid fa-phone color--Brown"></i></span>
-                    <a href=""></a>
-                </div>
-                <span class="Header__Top-line color--Brown">|</span>
-                <div>
-                    <span><i class="fa-solid fa-envelope color--Brown"></i></span>
-                    <a href=""></a>
-                </div>
-            </div> -->
+          
 
             <div class="Header__Bottom__Left">
                 <a href="TrangChu">

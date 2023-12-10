@@ -14,11 +14,11 @@
             <h4>Hổ trợ</h4>
             <li>
                 <i class="fa-solid fa-phone"></i>
-                <span>0234567891</span>
+                <span>0389660305</span>
             </li>
             <li>
                 <i class="fa-solid fa-phone"></i>
-                <span>0987654321</span>
+                <span>0987702523</span>
             </li>
             <li>
                 <i class="fa-solid fa-envelope"></i>

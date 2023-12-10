@@ -85,9 +85,7 @@
 
                                 </div>
                             </div>
-                            <!-- <div>
-                                <button class="paypal_momo paypal__momo--QRCode">Thanh toán bằng MOMO QRCode</button>
-                            </div> -->
+                            
                         </div>
                         <div class="Row2__Column2--Row3">
                             <input type="button" class="Order" value="ĐẶT HÀNG">
