@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 02, 2023 lúc 06:42 AM
+-- Thời gian đã tạo: Th12 10, 2023 lúc 04:30 AM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.1.17
 
@@ -263,7 +263,8 @@ CREATE TABLE `khachhang` (
 INSERT INTO `khachhang` (`ID`, `IDTK`, `hoTen`, `ngaysinh`, `gioiTinh`, `sdt`, `diachi`, `ranks`, `image`) VALUES
 (42, 42, 'user', '2023-11-29', 'Nam', 'null', 'Quy Nhon', 0, 'Public/image/Avatar/noavatar.png'),
 (43, 41, 'ADMIN', '11-03-2000', 'Nam', '098724243', 'Hà Nội', 0, 'Public/image/Avatar/noavatar.png'),
-(44, 43, 'user1', '2002-03-11', 'Nam', 'null', '1234567', 0, 'Public/image/Avatar/noavatar.png');
+(44, 43, 'user1', '2002-03-11', 'Nam', 'null', '1234567', 0, 'Public/image/Avatar/noavatar.png'),
+(45, 44, 'Admin', '2003-03-15', 'Nữ', 'null', 'HCM', 0, 'Public/image/Avatar/noavatar.png');
 
 -- --------------------------------------------------------
 
@@ -456,9 +457,10 @@ CREATE TABLE `taikhoan` (
 --
 
 INSERT INTO `taikhoan` (`ID`, `email`, `passwords`, `role`, `checktk`, `status`) VALUES
-(41, 'admin@gmail.com', '$2y$10$ImY4nrHN93ER2fxZ07IyzeSQrK0m7gGHHgsIKPc.byo8qlvje7GGi', 'admin', 0, 0),
+(41, 'khanh@gmail.com', '$2y$10$ImY4nrHN93ER2fxZ07IyzeSQrK0m7gGHHgsIKPc.byo8qlvje7GGi', 'user', 0, 0),
 (42, 'user@gmail.com', '$2y$10$xUZs56GkdgiA3qdcuCH7NuFjgo2zAlEE1y8VMLU0BpmXtnxJPDA6e', 'user', 5, 0),
-(43, 'user1@gmail.com', '$2y$10$UHHFDKOpNBUuvBIl0/P4AeF91gGk/e7HzDly5REwb4JclR4UpgoFa', 'user', 0, 1);
+(43, 'user1@gmail.com', '$2y$10$UHHFDKOpNBUuvBIl0/P4AeF91gGk/e7HzDly5REwb4JclR4UpgoFa', 'user', 0, 1),
+(44, 'Admin@gmail.com', '$2y$10$WB3xRbl1FRWDaXVxYPRkqOp.xYKv4SvW0HrZjP/a9AgfQd.8ip0Ku', 'admin', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -737,7 +739,7 @@ ALTER TABLE `giohang`
 -- AUTO_INCREMENT cho bảng `khachhang`
 --
 ALTER TABLE `khachhang`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT cho bảng `kichthuoc`
@@ -779,7 +781,7 @@ ALTER TABLE `sukien`
 -- AUTO_INCREMENT cho bảng `taikhoan`
 --
 ALTER TABLE `taikhoan`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT cho bảng `theloai`
